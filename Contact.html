@@ -3,94 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
     <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Real Estate</title>
 </head>
 <body>
-    
- <header class="contact-header">
-    <h2>Contact</h2>
-    <nav>
-        <a href="About.html">About</a>
-        <a href="Blog.html">Blog</a>
-        <a href="Contact.html">Contact</a>
-    </nav>
+    <header class="secondary-header">
+        <div class="menu">
+            <h1>Real Estate</h1>
+            <nav>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+        </div>
     </header>
     <main class="container">
-        <div class="contact-text">
+        <div class="main-text">
             <h2>Contact</h2>
-            <p class="intructions">Fill the next information <i class="fa-solid fa-circle-info"></i></p>
-            <p class="instruction-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et molestiae quo necessitatibus maiores quis perspiciatis modi at dicta iusto.</p>
-
-</div>
-<div class="contact-form">
-    <form class="form">
-        ,<fieldset>
-            <legend> Personal Information</legend>
-            <div class="input-control">
-                <label>Name:</label>
-                <input type="text">
-            </div>
     
-            <div class="input-control">
-                <label>Email:</label>
-                <input type="email">
-            </div>
-            <div class="input-control">
-                <label>Phone Number</label>
-                <input type="tel">
-            </div>
-            <div class="input-control">
-                <label>Message</label>
-                <textarea></textarea>
-
-            </div>
-        </fieldset>
-        <fieldset> 
-            <legend> product information</legend>
-    <div class="input-control">       
-            <form action="/action_page.php">
-    
-            <label for="product">type:</label>
-    <select>
-            <option value="option1">option1</option>
-            <option value="option2">option2</option>
-            <option value="option3">option3</option>
-            <option value="option4">option4</option>
-    </select>
-    </div>
-        </fieldset>
-    </form>
-
-</div>
-    </main>
-    <footer>
-        <div class="footer-text">
-            <div>
-                <p>Powered by <span class="text-bold">Zillow</span></p>
-            </div>
-            <div class="policy-info">
-                <p class="cr-text">Copyright &copy;2025</p>
-                <p class="text-bold"> Privacy Policy</p>
-            </div>
-            <div class="sm-container"> 
-                <div class="sm-icon">
-                        <i class="fa-brands fa-facebook"></i>
-                </div>
-                <div class="sm-icon">
-                        <i class="fa-brands fa-linkedin"></i>
-                </div>
-                <div class="sm-icon">
-                        <i class="fa-brands fa-youtube"></i>
-                </div>
-            </div>
+            <h3>Fill the next information</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rem reprehenderit earum ut vitae, temporibus a! Magni nulla cum nisi, quae qui reprehenderit nihil aliquid totam, eius reiciendis iste magnam. <i class="fa-solid fa-circle-info"></i>
+            </p>
         </div>
+        
+            <form class="my-form">
+                <fieldset>
+                    <legend>Personal information</legend>
+                    <div>
+                        <label>Name:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Email:</label>
+                        <input type="email">
+                    </div>
+                    <div>
+                        <label>Phone:</label>
+                        <input type="tel">
+                    </div>
+                    <div>
+                        <label>Message</label>
+                        <textarea></textarea>
+                    </div>
+                    
+                </fieldset>
+            </form>
+
+            <form class="my-form">
+                <fieldset>
+                    <legend>Product information</legend>
+                    <div>
+                        <label>Type:</label>
+                        <select>
+                            <option value="option1">--Option 1</option>
+                            <option value="option1">--Option 2</option>
+                            <option value="option1">--Option 3</option>
+                        </select>
+
+                    </div>
+                    <div>
+                    <label>Number:</label>
+                    <input type="number">
+
+                    </div>
+                </fieldset>
+            </form>
+
+            <form class="my-form contact-flex">
+                <fieldset>
+                    <legend>Contact information</legend>
+                    <div>
+                    <label>Email:</label>
+                    <input type="checkbox">
+                    </div>
+                    <div>
+                        <label>Phone:</label>
+                        <input type="checkbox">
+                    </div>
+                    <div>
+                        <label>Date:</label>
+                        <input type="date">
+
+                    </div>
+                    <div>
+                        <label>Hour:</label>
+                        <input type="time">
+                    </div>
+                    
+                </fieldset>
+            </form>
+        </main>
+            
+
+    <footer class="footer-container">
+        <div class="container footer-flex">
+            <div>
+                <p>Powered by Zillow</p>
+            </div>
+            <div class="my-flex footer-text">
+                <p>Copyright &copy; 2024</p>
+                <p>privacy Policy</p>
+            </div>
+        <div class="my-flex footer-icons">
+           <div><i class="fa-brands fa-facebook-f"></i></div>
+           <div><i class="fa-brands fa-linkedin-in"></i></div>
+           <div><i class="fa-brands fa-youtube"></i></div>
+        </div>
+        </div>
+
     </footer>
-    
 </body>
 </html>
+                    
